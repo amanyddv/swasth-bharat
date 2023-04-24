@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed;
+    background-image: url("/assets/navbar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 5vw;
+    width: 100vw;
+    text-decoration: none;
+    
+  }
+
+.navbar img{
+    width:6vw;
+    padding-left: 0.2vw;
+    padding-top: 0.2vw;
+    
+}
+
+.nav-option{
+    float :right;
+    margin-top:2vw;
+    font-size: larger;
+}
+.nav-option a{
+    text-decoration: none;
+    color: white;
+    margin-right: 5vw;
+}
+.nav-option a:hover{
+    color:rgb(2, 29, 29);
+}
+.banner{
+    position: static;
+    
+}
+.banner-img{
+    
+    top: 100vw;
+    background-image: url("/assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 90%;
+    height: 80vw;
+    width: 100vw;
+}
