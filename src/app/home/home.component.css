@@ -40,11 +40,46 @@
 }
 .banner-img{
     
-    top: 100vw;
+    position: static;
+
     background-image: url("/assets/banner.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 90%;
-    height: 80vw;
+    height:45vw;
     width: 100vw;
+}
+h2{
+    background: #84AAE1;
+    height: 3vw;
+    width: 100%;
+    margin-bottom: 2vw;
+    padding-top: 1.5vw;
+    padding-left: 1vw;
+
+}
+h3{
+    text-align: center;
+    color:rgb(58, 58, 221);
+    font-size: x-large;
+    margin-bottom: 1vw;
+}
+.card{
+    float: left;
+    height: 30vw;
+}
+.card img{
+    width:40vw;
+    height: 30vw;
+
+}
+
+.about{
+    padding-bottom: 2vw;
+    height: 30vw;
+    width: 97vw;
+    font-size: larger;
+}
+.faqs{
+    position: static;
 }
