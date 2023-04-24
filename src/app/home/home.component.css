@@ -34,6 +34,9 @@
 .nav-option a:hover{
     color:rgb(2, 29, 29);
 }
+.nav-option a:active{
+    color:rgb(8, 234, 117);
+}
 .banner{
     position: static;
     
@@ -82,4 +85,11 @@ h3{
 }
 .faqs{
     position: static;
+}
+.footer{
+    background-color: rgb(69, 19, 127);
+    text-align: center;
+    height: 5vw;
+    padding-top:3vw;
+    color: white;
 }
