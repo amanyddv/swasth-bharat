@@ -9,6 +9,7 @@
         <a href="">Contact</a>
     </div>
 </nav>
+
 <div class="banner" id="home">
     <div class="banner-img"></div>
 </div>
@@ -42,5 +43,11 @@
 </div>
 <div class="faqs" id="faqs">
     <h2>FREQUENTLY ASKED QUESTIONS </h2>
+
+    <div *ngFor="let faq of faqs">        
+        <h4>{{faq.q}}</h4>
+        <h5>{{faq.a}}</h5>
+    </div>
+
 </div>
 <div class="footer">© Copyright Swasth Bharat. All Rights Reserved</div>

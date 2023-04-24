@@ -9,7 +9,7 @@
     background-attachment: fixed;
     background-size: 100% 100%;
     height: 5vw;
-    width: 100vw;
+    width: 100%;
     text-decoration: none;
     
   }
@@ -44,20 +44,20 @@
 .banner-img{
     
     position: static;
-
+    
     background-image: url("/assets/banner.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 90%;
-    height:45vw;
-    width: 100vw;
+    height:40vw;
+    width: 100%;
 }
 h2{
     background: #84AAE1;
-    height: 3vw;
+    height: 2vw;
     width: 100%;
     margin-bottom: 2vw;
-    padding-top: 1.5vw;
+    padding-top: 0.5vw;
     padding-left: 1vw;
 
 }
@@ -92,4 +92,28 @@ h3{
     height: 5vw;
     padding-top:3vw;
     color: white;
+}
+h4{
+    padding-left: 1.5vw;
+    font-size: larger;
+    background-color:rgb(188, 188, 212);
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+h5{
+    padding-left: 1.5vw;
+    font-size: larger;
+    background-color:rgb(239, 134, 245);
+    margin-bottom: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+    padding-right: 0.5vw;
 }
