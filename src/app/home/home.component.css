@@ -37,21 +37,13 @@
 .nav-option a:active{
     color:rgb(8, 234, 117);
 }
-.banner{
-    position: static;
-    
-}
-.banner-img{
-    
-    position: static;
-    
-    background-image: url("/assets/banner.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 90%;
-    height:40vw;
+
+.banner img{
+    padding-top: 5vw;
+    height:30vw;
     width: 100%;
 }
+
 h2{
     background: #84AAE1;
     height: 2vw;
@@ -69,7 +61,6 @@ h3{
 }
 .card{
     float: left;
-    height: 30vw;
 }
 .card img{
     width:40vw;
@@ -79,7 +70,7 @@ h3{
 
 .about{
     padding-bottom: 2vw;
-    height: 30vw;
+
     width: 97vw;
     font-size: larger;
 }
@@ -92,6 +83,7 @@ h3{
     height: 5vw;
     padding-top:3vw;
     color: white;
+    margin-top: 2vw;
 }
 h4{
     padding-left: 1.5vw;
@@ -103,8 +95,11 @@ h4{
     padding-bottom: 0.5vw;
     padding-top: 0.5vw;
     padding-right: 0.5vw;
+    margin-bottom: 0.5vw;
 }
-
+h4:hover{
+    background-color: rgb(71, 71, 82);;
+}
 h5{
     padding-left: 1.5vw;
     font-size: larger;

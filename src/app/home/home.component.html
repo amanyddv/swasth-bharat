@@ -11,7 +11,7 @@
 </nav>
 
 <div class="banner" id="home">
-    <div class="banner-img"></div>
+    <img src="assets\banner.jpg">
 </div>
 <div id="about">
     <h2>ABOUT</h2>
@@ -44,9 +44,9 @@
 <div class="faqs" id="faqs">
     <h2>FREQUENTLY ASKED QUESTIONS </h2>
 
-    <div *ngFor="let faq of faqs">        
-        <h4>{{faq.q}}</h4>
-        <h5>{{faq.a}}</h5>
+    <div *ngFor="let faq of faqs;index as i">        
+        <h4 (click)="onClick(i) ">{{faq.q}}</h4>
+        <h5 *ngIf="faq.state">{{faq.a}}</h5>
     </div>
 
 </div>
