@@ -112,3 +112,12 @@ h5{
     padding-top: 0.5vw;
     padding-right: 0.5vw;
 }
+section{
+    margin-top: 1vw;
+    width: 67vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #b7c1ce;
+    padding: 1.5vw;
+    font-size: larger;
+}

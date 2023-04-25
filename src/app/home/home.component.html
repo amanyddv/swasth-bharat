@@ -16,8 +16,8 @@
 <div id="about">
     <h2>ABOUT</h2>
     <h3>UNIQUE HEALTH ID</h3>
-    <div class="card"><img src="assets/card.png"  alt=""></div>
-    <div class="about" >The implementation of a UHID system can have significant benefits for both individuals and
+    <div class="card"><img src="assets/card.png" alt=""></div>
+    <div class="about">The implementation of a UHID system can have significant benefits for both individuals and
         healthcare providers. For individuals, having a UHID ensures that their health records are accurate, up-to-date,
         and easily accessible by authorized healthcare providers. This can improve the quality of care received, reduce
         medical errors, and potentially save lives in emergency situations.
@@ -25,17 +25,17 @@
         For healthcare providers, a UHID system can streamline administrative processes, improve coordination of care
         among providers, and reduce the duplication of tests and procedures. It can also aid in population health
         management by providing data on health trends and risk factors.
-<br><br>
+        <br><br>
         However, the implementation of a UHID system must be done carefully to protect individual privacy and security.
         Robust measures must be put in place to safeguard against unauthorized access, hacking, and data breaches. It is
         also important to ensure that the UHID system is accessible to all individuals, regardless of socioeconomic
         status or geographic location.
-<br><br>
+        <br><br>
         In countries where a UHID system has been implemented, such as India, it has shown promising results in
         improving healthcare delivery and outcomes. However, it is important to note that the success of a UHID system
         depends on its implementation and ongoing maintenance, as well as the willingness of individuals and healthcare
         providers to adopt and use the system.
-<br><br>
+        <br><br>
         Overall, a UHID system has the potential to revolutionize healthcare delivery and improve health outcomes for
         individuals and populations. However, careful planning, implementation, and ongoing management are essential to
         ensure its success.
@@ -44,10 +44,41 @@
 <div class="faqs" id="faqs">
     <h2>FREQUENTLY ASKED QUESTIONS </h2>
 
-    <div *ngFor="let faq of faqs;index as i">        
+    <div *ngFor="let faq of faqs;index as i">
         <h4 (click)="onClick(i) ">{{faq.q}}</h4>
         <h5 *ngIf="faq.state">{{faq.a}}</h5>
     </div>
-
+    <div>
+        <h1 style="text-align: center; margin-top: 4vw;"> MYTHS </h1>
+        <section>
+           <b> Myth #1: </b>A UHID is a way for the government to track my health information.
+            Fact: A UHID is a digital identity number assigned to individuals for the purpose of maintaining their
+            health records in a centralized electronic database. It is not a way for the government to track
+            individuals' health information.
+            <br><br>
+            <b> Myth #2: </b>A UHID system is a violation of my privacy.
+            Fact: UHID systems must be designed with robust security measures to protect individual privacy and prevent
+            unauthorized access, hacking, and data breaches. Access to UHID systems is typically governed by strict
+            privacy and security regulations.
+<br><br>
+<b> Myth #3: </b> Only wealthy individuals can access UHID systems.
+            Fact: In countries where UHID systems have been implemented, they are designed to be accessible to all
+            individuals, regardless of socioeconomic status or geographic location.
+            <br><br>
+            <b> Myth #4: </b>UHID systems are only beneficial to healthcare providers, not individuals.
+            Fact: UHID systems can have significant benefits for both individuals and healthcare providers. For
+            individuals, having a UHID ensures that their health records are accurate, up-to-date, and easily accessible
+            by authorized healthcare providers. This can improve the quality of care received, reduce medical errors,
+            and potentially save lives in emergency situations. For healthcare providers, a UHID system can streamline
+            administrative processes, improve coordination of care among providers, and reduce the duplication of tests
+            and procedures.
+            <br><br>
+            <b> Myth #5: </b>UHID systems are not necessary because paper records work just fine.
+            Fact: While paper records can be effective, they can also be lost, damaged, or difficult to access in
+            emergency situations. UHID systems provide a centralized electronic database of health records that is
+            easily accessible to authorized healthcare providers, improving the quality of care received and potentially
+            saving lives in emergency situations.
+        </section>
+    </div>
 </div>
 <div class="footer">© Copyright Swasth Bharat. All Rights Reserved</div>
