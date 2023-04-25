@@ -2,51 +2,24 @@
     margin: 0;
     padding: 0;
 }
-.navbar {
-    position: fixed;
-    background-image: url("/assets/navbar.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    height: 5vw;
-    width: 100%;
-    text-decoration: none;
-    
-  }
 
-.navbar img{
-    width:6vw;
-    padding-left: 0.2vw;
-    padding-top: 0.2vw;
-    
-}
+.banner{
+    height: 41vw;
 
-.nav-option{
-    float :right;
-    margin-top:2vw;
-    font-size: larger;
-}
-.nav-option a{
-    text-decoration: none;
-    color: white;
-    margin-right: 5vw;
-}
-.nav-option a:hover{
-    color:rgb(2, 29, 29);
-}
-.nav-option a:active{
-    color:rgb(8, 234, 117);
-}
 
+}
 .banner img{
+    position: static;
     padding-top: 5vw;
-    height:30vw;
+
+    height: 40vw;
     width: 100%;
+
 }
 
 h2{
     background: #84AAE1;
-    height: 2vw;
+    height: 3vw;
     width: 100%;
     margin-bottom: 2vw;
     padding-top: 0.5vw;
@@ -60,7 +33,8 @@ h3{
     margin-bottom: 1vw;
 }
 .card{
-    float: left;
+    float: left;    height: 40vw;
+
 }
 .card img{
     width:40vw;
@@ -70,8 +44,9 @@ h3{
 
 .about{
     padding-bottom: 2vw;
-
+    height:max-content;
     width: 97vw;
+    height: 40vw;
     font-size: larger;
 }
 .faqs{
@@ -80,7 +55,7 @@ h3{
 .footer{
     background-color: rgb(69, 19, 127);
     text-align: center;
-    height: 5vw;
+    height: 6vw;
     padding-top:3vw;
     color: white;
     margin-top: 2vw;
