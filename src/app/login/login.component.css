@@ -85,3 +85,7 @@ body{
     bottom: 20px;
     right:40px;
 }
+.btn-send{
+    padding: 0.5vw;
+    text-align: center;
+}
