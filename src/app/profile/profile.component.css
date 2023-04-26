@@ -29,6 +29,13 @@ border-radius: 30px;
 
 
 }
+.detail{
+    float: left;
+    margin-left: 1vw;
+}
+h2{
+    color: black;
+}
 table{
    font-size: larger;
    color: #000000;
@@ -45,3 +52,10 @@ table{
     margin-right: auto;
 }
 
+.document{
+    height:37vw;
+    width: 50vw;
+    border-radius: 5%;
+    background-color: rgb(225, 166, 56);
+    border: 2px solid #000000;
+}
