@@ -1,0 +1,47 @@
+.parent {
+   
+    height: 100vh; 
+    padding-top: 7vw;
+   
+    background-image: url('/assets/navbar.jpg');
+
+  }
+  .profilesection{
+
+float: right;
+width:30vw;
+height: 40vw;
+margin-right:5vw;
+border: 2px solid #000000;
+border-radius: 30px;
+
+  }
+.profileimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin-top: 3vw;
+
+
+
+}
+table{
+   font-size: larger;
+   color: #000000;
+   margin-left: 2vw;
+   border-collapse: collapse;
+   border: 1px solid black;
+
+   
+}
+.table{
+    margin-top: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

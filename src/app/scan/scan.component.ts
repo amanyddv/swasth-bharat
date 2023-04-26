@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ScanComponent {
 constructor(private route: ActivatedRoute){
 }
-name="Rahul Rastogi"
+name="Prabha Devi"
 ngOnInit():void{
   this.route.params.subscribe(params => {
     // Access individual parameter values using params object
