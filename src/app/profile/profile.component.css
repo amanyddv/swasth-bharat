@@ -59,3 +59,11 @@ table{
     background-color: rgb(225, 166, 56);
     border: 2px solid #000000;
 }
+
+.userdetail{
+    background-color: rgb(235, 235, 235);
+    height: 10vw;
+    width: 10vw;
+   
+    border: 12px solid rgb(225, 166, 56);
+}
