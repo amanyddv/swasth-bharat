@@ -70,22 +70,7 @@ body{
     color:#2237a5;
     text-decoration: none;
 }
-.circle{
-    width: 220px;
-    height:220px;
-    border-radius: 100px;
-    background: linear-gradient(to top right,#ffffff33,#ffffff);
-    position: absolute;
 
-}
-.c1{
-    top:3vw;
-}
-.c2{
-    bottom: 20px;
-    right:40px;
-}
 .btn-send{
     padding: 0.5vw;
-    text-align: center;
 }

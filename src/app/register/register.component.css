@@ -1,9 +1,10 @@
 
-.section{
-    
-        background-image: url('src/assets/navbar.jpg');
-        background-size: cover;
-        background-position: center center;
-        height: 100vh;
-      
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+
+section{
+    padding-top: 10vw;;
 }
