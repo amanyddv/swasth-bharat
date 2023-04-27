@@ -67,3 +67,8 @@ table{
    
     border: 12px solid rgb(225, 166, 56);
 }
+
+h4{
+    text-align: center;
+    color: #000000;
+}
